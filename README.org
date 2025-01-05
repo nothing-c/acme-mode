@@ -1,0 +1,22 @@
+#+TITLE: acme-mode: Acme-inspired mouse control minor mode for Emacs
+
+* Functions to bind
+** Acme Standard
+- [ ] Kill
+- [ ] Copy
+- [ ] Paste
+- [ ] Eval
+- [ ] Open (find-file or similar)
+
+** Extras
+- [ ] Autofmt region (C-M-\)
+- [ ] Save
+
+* Binds
+- C-m1: copy
+- C-m2: kill
+- C-m3: paste
+- M-m1: eval region
+- M-m2: open (whatever is in the region or the point is on)
+- M-m3: save
+- C-M-m1: Autofmt region
