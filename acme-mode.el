@@ -11,13 +11,13 @@
 (define-key acme-keymap (kbd "<C-M-down-mouse-2>") '())
 (define-key acme-keymap (kbd "<C-M-down-mouse-3>") '())
 
-(define-minor-mode nckey-mode
-  ""
+(define-minor-mode acme-mode
+  "Minor mode for useful mouse commands, somewhat inspired by Plan9's Acme editor"
   :global t
   :init-value t
   :lighter " acme"
   :keymap acme-keymap
-)
+  )
 (add-to-list 'emulation-mode-map-alists
              `((acme-mode . ,acme-keymap)))
 (provide 'acme-mode)
