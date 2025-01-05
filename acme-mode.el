@@ -1,5 +1,6 @@
 ;; -*- coding: utf-8; lexical-binding: t; -*-
 
+(defvar acme-keymap (make-sparse-keymap) "Acme-mode keymap")
 (define-key acme-keymap (kbd "<C-down-mouse-1>") 'copy-region-as-kill)
 (define-key acme-keymap (kbd "<C-down-mouse-2>") 'kill-region)
 (define-key acme-keymap (kbd "<C-down-mouse-3>") 'yank)
