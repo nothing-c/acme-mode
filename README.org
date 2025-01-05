@@ -1,5 +1,7 @@
 #+TITLE: acme-mode: Acme-inspired mouse control minor mode for Emacs
 
+Note: I'm using a laptop without a mouse right now, so I'm not sure how well it workds. May report back when I have a mouse to use. Caveat emptor.
+
 * Functions to bind
 ** Acme Standard
 - [X] Kill
