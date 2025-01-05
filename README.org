@@ -2,15 +2,15 @@
 
 * Functions to bind
 ** Acme Standard
-- [ ] Kill
-- [ ] Copy
-- [ ] Paste
-- [ ] Eval
-- [ ] Open (find-file or similar)
+- [X] Kill
+- [X] Copy
+- [X] Paste
+- [X] Eval
+- [X] Open (find-file or similar)
 
 ** Extras
-- [ ] Autofmt region (C-M-\)
-- [ ] Save
+- [X] Autofmt region (C-M-\)
+- [X] Save
 
 * Binds
 - C-m1: copy
