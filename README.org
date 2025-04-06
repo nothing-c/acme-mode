@@ -1,6 +1,8 @@
 #+TITLE: acme-mode: Acme-inspired mouse control minor mode for Emacs
 
-Note: I'm using a laptop without a mouse right now, so I'm not sure how well it workds. May report back when I have a mouse to use. Caveat emptor.
+Note: I'm using a laptop without a mouse right now, so I'm not sure how well it works. May report back when I have a mouse to use. Caveat emptor.
+
+[[http://acme.cat-v.org/mouse][Acme Resources]]
 
 * Functions to bind
 ** Acme Standard
@@ -17,8 +19,31 @@ Note: I'm using a laptop without a mouse right now, so I'm not sure how well it 
 * Binds
 - C-m1: copy
 - C-m2: kill
-- C-m3: paste
-- M-m1: eval region
+- C-m3: search (like acme)
+- C-S-m1: 
+- C-S-m2: 
+- C-S-m3: search backward (like acme)
+- M-m1: 
 - M-m2: open (whatever is in the region or the point is on)
 - M-m3: save
 - C-M-m1: Autofmt region
+- C-M-m2: Comment region
+- C-M-m3: Eval region
+- m4: previous buffer
+- m5: next buffer
+
+dwim-eval-region (use inferior fsharp mode or elisp or w/e, set up a switch statement)
+compile-file?
+Others for launching windows or running an external command, perhaps
+select sexp! (double click, already done)
+
+Parenthesize region
+
+* Notes
+Can't directly do mouse chords (after some experimentation), so it's mouse+keyboard a go-go
+
+C-scroll for zooming in/out is already implemented
+
+m2 (middle mouse) is already yank/paste, so no problem there
+
+m3 does clicky-click region selection
