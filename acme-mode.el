@@ -7,9 +7,11 @@
 (define-key acme-keymap (kbd "<M-down-mouse-1>") 'eval-region)
 (define-key acme-keymap (kbd "<M-down-mouse-2>") 'find-file-at-point)
 (define-key acme-keymap (kbd "<M-down-mouse-3>") 'save-buffer)
-(define-key acme-keymap (kbd "<C-M-down-mouse-1>") 'indent-region)
-(define-key acme-keymap (kbd "<C-M-down-mouse-2>") '())
-(define-key acme-keymap (kbd "<C-M-down-mouse-3>") '())
+(define-key acme-keymap (kbd "<C-M-mouse-1>") 'indent-region)
+(define-key acme-keymap (kbd "<C-M-mouse-2>") '())
+(define-key acme-keymap (kbd "<C-M-mouse-3>") '())
+(define-key acme-keymap (kbd "<mouse-4>") 'previous-buffer)
+(define-key acme-keymap (kbd "<mouse-5>") 'next-buffer)
 
 (define-minor-mode acme-mode
   "Minor mode for useful mouse commands, somewhat inspired by Plan9's Acme editor"
