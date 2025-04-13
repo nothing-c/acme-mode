@@ -18,6 +18,8 @@
 (define-key acme-keymap (kbd "<C-M-mouse-3>") 'eval-region)
 (define-key acme-keymap (kbd "<mouse-4>") 'previous-buffer)
 (define-key acme-keymap (kbd "<mouse-5>") 'next-buffer)
+(define-key acme-keymap (kbd "<C-mouse-4>") 'ibuffer)
+(define-key acme-keymap (kbd "<C-mouse-5>") 'ibuffer)
 
 (define-minor-mode acme-mode
   "Minor mode for useful mouse commands, somewhat inspired by Plan9's Acme editor"
