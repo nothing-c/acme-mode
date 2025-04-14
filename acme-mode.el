@@ -8,7 +8,7 @@
 (define-key acme-keymap (kbd "<C-mouse-3>") #'(lambda () (interactive) (search-forward (word-at-point))))
 (define-key acme-keymap (kbd "<C-down-mouse-3>") #'(lambda () (interactive) (search-forward (word-at-point))))
 (define-key acme-keymap (kbd "<C-S-mouse-1>") 'insert-parentheses)
-(define-key acme-keymap (kbd "<C-S-mouse-2>") 'shell-command)
+(define-key acme-keymap (kbd "<C-S-mouse-2>") 'shell-command-on-region)
 (define-key acme-keymap (kbd "<C-S-mouse-3>") #'(lambda () (interactive) (search-backward (word-at-point))))
 (define-key acme-keymap (kbd "<M-mouse-1>") 'compile)
 (define-key acme-keymap (kbd "<M-mouse-2>") 'find-file-at-point)

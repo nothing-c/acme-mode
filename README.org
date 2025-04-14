@@ -48,7 +48,7 @@ Note: I'm using a laptop without a mouse right now, so I'm not sure how well it 
 - M5: ibuffer (for now)
 *** Extended Main Actions (C-S-click)
 - M1: parenthesize
-- M2: shell command (needs to be changed)
+- M2: shell command on region
 - M3: search word backward
 - M4: n/a
 - M5: n/a
