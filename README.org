@@ -75,3 +75,6 @@ m2 (middle mouse) is already yank/paste, so no problem there
 m3 does clicky-click region selection
 
 Double-clicking already selects sexp/line/etc
+
+* Ideas
+Leveraging the scroll wheel (C-S-wheel, M-wheel, etc)
