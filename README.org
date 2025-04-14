@@ -32,6 +32,39 @@ Note: I'm using a laptop without a mouse right now, so I'm not sure how well it 
 - m4: previous buffer
 - m5: next buffer
 
+** Rationalization
++ = pre-bound
+*** Base Level (raw click)
+- M1: go to point +
+- M2: paste/yank + 
+- M3: select region from point +
+- M4: previous buffer
+- M5: next buffer
+*** Main Actions (C-click) [i.e., actions that work directly on the text]
+- M1: copy
+- M2: kill
+- M3: search word forward
+- M4: ibuffer (for now)
+- M5: ibuffer (for now)
+*** Extended Main Actions (C-S-click)
+- M1: parenthesize
+- M2: shell command (needs to be changed)
+- M3: search word backward
+- M4: n/a
+- M5: n/a
+*** Meta Actions (M-click) [i.e., actions that work on the buffer or syntax tree, rather than text directly]
+- M1: compile file
+- M2: find file at point
+- M3: save
+- M4: undo (back button)
+- M5: vc next action (forward button)
+*** Extended Meta Actions (C-M-click)
+- M1: indent region
+- M2: comment region
+- M3: eval region
+- M4: n/a
+- M5: n/a
+
 * Notes
 Can't directly do mouse chords (after some experimentation), so it's mouse+keyboard a go-go
 
